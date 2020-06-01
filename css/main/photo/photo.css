@@ -1,0 +1,34 @@
+.photo-title {
+  font-family: shnobel;
+  color: #004FC6;
+}
+
+.photo--active {
+  border-bottom: 1px solid #004FC5;
+  color: #004FC6;
+  cursor: pointer;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  width: 670px;
+  height: 625px;
+  margin: auto;
+}
+
+.photo-container__photo {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.photo-container__name {
+  margin-top: 14px;
+  text-align: center;
+  font-family: montserrat;
+}
+
+.photo-effect {
+  left: 150px;
+}
+

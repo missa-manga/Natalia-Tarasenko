@@ -1,0 +1,19 @@
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-control-prev {
+  left: -48px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../../../images/characters/back.png');
+}
+
+.carousel-control-next {
+  right: -48px;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../../../images/characters/next.png');
+}

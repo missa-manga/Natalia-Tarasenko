@@ -1,0 +1,31 @@
+@import "./fade-effect.css";
+
+#contacts {
+  margin-top: 200px;
+}
+
+.contacts--active {
+  border-bottom: 1px solid #7E5C88;
+  color: #7E5C88;
+  cursor: pointer;
+}
+
+.contacts__images {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+.contacts__image {
+  width: 100px;
+}
+
+.contacts-title {
+  padding-left: 150px;
+  color: #eb8934;
+}
+
+.contacts-effect {
+  left: -200px;
+}

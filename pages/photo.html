@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Photo</title>
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-wrapper">
+        <div class="menu">
+          <div class="menu__logo">
+            <a href="../index.html">
+              <img class="logo__image" src="../images/logo.png" alt="my logo" />
+            </a>
+          </div>
+          <div class="menu__links">
+            <a href="./manga.html" class="page_link manga">MANGA</a>
+            <a href="./characters.html" class="page_link chars">CHARACTERS</a>
+            <a href="./process.html" class="page_link process">PROCESS</a>
+            <span class="page_link photo--active">PHOTO</span>
+            <a href="./contacts.html" class="page_link contacts">CONTACTS</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="page-title photo-title">
+        <img class="title-effect photo-effect" src="../images/plamki pid bukvi/4vidmagi.png" alt="manga effect">
+        ВИГЛЯД МАНГИ
+      </h2>
+      <div class="content">
+        <section id="photo">
+          <div id="photo-carousel" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#photo-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#photo-carousel" data-slide-to="1"></li>
+              <li data-target="#photo-carousel" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="photo-container">
+                  <img class="photo-container__photo" src="../images/photo/manga-ex1.jpg" alt="">
+                  <p class="photo-container__name">23СТ 2ГЛАВА</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="photo-container">
+                  <img class="photo-container__photo" src="../images/photo/manga-ex2.jpg" alt="">
+                  <p class="photo-container__name">1 СТ 2ГЛАВА</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="photo-container">
+                  <img class="photo-container__photo" src="../images/photo/manga-ex3.jpg" alt="">
+                  <p class="photo-container__name">18 СТ 2ГЛАВА</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#photo-carousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#photo-carousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="links-wrapper">
+        <div class="links">
+            <a href="https://www.pinterest.ru/gitlerkapes/may-art-amino/">
+              <img src="https://img.icons8.com/material-outlined/24/000000/pinterest.png"/>
+            </a>
+            <a href="https://www.instagram.com/_missa_art_/?igshid=s9rcj1kaxrkj">
+              <img src="https://img.icons8.com/material-outlined/24/000000/instagram-new.png"/>
+            </a>
+            <a href="https://www.facebook.com/nataly.art.16">
+              <img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png"/>
+            </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

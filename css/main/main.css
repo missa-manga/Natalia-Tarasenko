@@ -1,0 +1,43 @@
+@import "./contacts/contacts.css";
+@import "./main-page/main_page.css";
+@import "./manga/manga.css";
+@import "./characters/characters.css";
+@import "./process/process.css";
+@import "./photo/photo.css";
+
+section {
+  width: 100%;
+}
+
+hr {
+  margin: 0;
+  border: 0.5px solid lightgray;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 10%;
+}
+
+.content {
+  width: 1080px;
+  margin: auto;
+}
+
+.page-title {
+  font-family: shnobel;
+  letter-spacing: 5px;
+}
+
+.title-effect {
+  width: 100px;
+  position: relative;
+  z-index: -1;
+  -webkit-animation:spin 5s linear infinite;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

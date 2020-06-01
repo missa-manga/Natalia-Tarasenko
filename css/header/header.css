@@ -1,0 +1,10 @@
+@import "./menu.css";
+@import "./logo.css";
+
+.page_link {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  text-decoration: none;
+}

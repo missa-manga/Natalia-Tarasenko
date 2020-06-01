@@ -1,0 +1,72 @@
+@import "./carousel.css";
+
+#characters {
+  margin-top: 85px;
+}
+
+.chars--active {
+  border-bottom: 1px solid #FF80BC;
+  color: #FF80BC;
+  cursor: pointer;
+}
+
+.char-img {
+  margin-right: 37px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+/* .description img {
+  margin-left: 60px;
+} */
+
+.description__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 37px;
+  width: 345px;
+}
+
+.characters-title {
+  font-family: shnobel;
+  color: #FF80BC;
+  font-size: 60px;
+  margin-bottom: 25px;
+  height: 72px;
+}
+
+.characters-title-mob {
+  font-family: shnobel;
+  padding-left: 100px;
+  display: none;
+}
+
+.description__info h3 {
+  color: #AD427A;
+  font-size: 42px;
+  font-family: shnobel;
+  margin: 0 0 20px 0;
+}
+
+.description__info p {
+  max-width: 400px;
+  font-family: montserrat;
+  margin-bottom: 0;
+}
+
+.description__info strong {
+  font-family: montserrat-bold;
+}
+
+.koncept-effect {
+  width: 100px;
+  top: -88px;
+}
+
+.koncept-effect-mob {
+  left: -240px;
+}

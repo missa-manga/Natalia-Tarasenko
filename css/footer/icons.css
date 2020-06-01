@@ -1,0 +1,25 @@
+.links-wrapper {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 7;
+}
+
+.links {
+  height: 45px;
+  width: 1140px;
+  margin: 40px auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links img {
+  margin: 10px
+}

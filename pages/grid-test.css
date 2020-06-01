@@ -1,0 +1,25 @@
+body {
+  display: grid;
+}
+
+
+
+main {
+  margin: 45px auto 0;
+  background-color: rgba(231, 231, 231, 0.8);
+  width: 760px;
+}
+
+#grid { 
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5vw;
+}
+
+#grid > div {
+  font-size: 5vw;
+  padding: .5em;
+  background: rgb(203, 195, 175);
+  text-align: center;
+}

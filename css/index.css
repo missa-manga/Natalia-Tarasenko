@@ -1,0 +1,327 @@
+@import "header/header.css";
+@import "main/main.css";
+@import "footer/footer.css";
+@import "./font.css";
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  z-index: 1;
+}
+
+.page-title {
+  margin: 70px 0 0 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    width: 960px;
+  }
+
+  .content {
+    width: 960px;
+  }
+
+  .manga_image {
+    margin: 20px 20px 20px 0;
+  }
+
+  .read_manga {
+    top: 430px;
+  }
+
+  .manga_image img {
+    height: 100%;
+  }
+
+  .manga_heading h1 {
+    font-size: 70px;
+  }
+
+  .manga_heading h2 {
+    font-size: 50px;
+  }
+
+  .photo-container {
+    width: 620px;
+    height: 580px;
+  }
+
+  .manga_text {
+    flex-direction: column;
+  }
+
+  .manga_heading__desc {
+    margin: 20px 0;
+  }
+
+  .main-page__greeting {
+    width: 440px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left: -220px;
+  }
+
+  .main-page__greeting h2 {
+    font-size: 62px;
+    margin-top: 15px;
+  }
+
+  .main-page__greeting h4 {
+    font-size: 25px;
+  }
+
+  .links {
+    width: 960px;
+  }
+
+  .contacts-form {
+    left: 615px;
+    width: 250px;
+  }
+
+  .greeting-pic {
+    left: 60px;
+  }
+
+  .author-message {
+    left: 365px;
+  }
+
+  .show-inputs {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .menu {
+    width: 720px;
+  }
+
+  .content {
+    width: 720px;
+  }
+
+  #process-demo {
+    display: block;
+  }
+
+  .manga_heading__about {
+    font-size: 63px;
+  }
+
+  .manga_heading__desc {
+    font-size: 43px;
+  }
+
+  .manga_image {
+    margin: 20px auto;
+  }
+
+  .read_manga {
+    top: 410px;
+  }
+
+  .manga-wrap {
+    flex-direction: column-reverse;
+  }
+
+  .manga_heading h1 {
+    display: none;
+  }
+
+  .slide-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+  }
+  .slide-wrap {
+    display: none;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description img {
+    /* width: 353px; */
+    margin: 20px auto;
+  }
+
+  .description__info {
+    height: 235px;
+    width: 345px;
+    margin-bottom: 40px;
+  }
+
+  .characters-title {
+    display: none;
+  }
+
+  .characters-title-mob {
+    display: block;
+    margin-top: 40px;
+    color: #FF80BC;
+    font-size: 60px;
+  }
+
+  .mg3 {
+    display: none;
+  }
+
+  .main_page {
+    width: 600px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "mg1 mg2"
+      "mg1 mg2";
+  }
+
+  .main-page__greeting {
+    width: 400px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -200px;
+  }
+
+  .main-page__greeting h2 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .main-page__greeting h4 {
+    font-size: 20px;
+  }
+
+  .photo-container {
+    width: 520px;
+    height: 530px;
+  }
+
+  .contacts-form {
+    left: 434px;
+  }
+
+  .show-inputs {
+    width: 250px;
+  }
+
+  .animated-gif {
+    bottom: 350px;
+    left: 50%;
+    margin-left: -100px;
+  }
+
+  .links {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 520px;
+  }
+
+  .content {
+    width: 520px;
+  }
+
+  .mg3 {
+    display: block;
+    height: unset;
+  }
+
+  .mg1 {
+    display: none;
+  }
+
+  .read_manga {
+    top: 400px;
+  }
+
+  .main_page {
+    width: 420px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "mg2 mg2"
+      "mg3 mg3";
+  }
+
+  .main-page__greeting {
+    width: 300px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -150px;
+  }
+
+  .main-page__greeting h2 {
+    padding-left: 13px;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+
+  .main-page__greeting h4 {
+    padding: 5px 0 0 13px;
+    font-size: 12px;
+  }
+
+  .links {
+    width: 520px;
+  }
+
+  .greeting-pic {
+    height: 260px;
+    left: 60px;
+  }
+
+  .author-message {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 248px;
+    top: -284px;
+  }
+
+  .photo-container {
+    width: 360px;
+    height: 400px;
+  }
+
+  .contacts_images {
+    height: 255px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts-form {
+    position: relative;
+    margin: auto;
+    left: 50%;
+    margin-left: -125px;
+    top: 100px;
+  }
+
+  .animated-gif {
+    display: unset;
+  }
+}

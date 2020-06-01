@@ -1,0 +1,47 @@
+@import './greeting.css';
+
+.main--active {
+  border-bottom: 1px solid rgb(66, 222, 167);
+  color: rgb(66, 222, 167);
+  cursor: pointer;
+}
+
+.main_page {
+  margin: auto;
+  
+}
+
+.main_page {
+  margin: auto;
+  margin-top: 85px;
+  width: 700px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "mg1 mg2"
+    "mg1 mg3"
+}
+
+.mg1, .mg2, .mg3 {
+  background-color: lightgrey;
+  border: 1px solid black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mg1 {
+  grid-area: mg1;
+}
+
+.mg2 {
+  grid-area: mg2;
+  height: 100%;
+}
+
+.mg3 {
+  grid-area: mg3;
+  height: 100%;
+}
